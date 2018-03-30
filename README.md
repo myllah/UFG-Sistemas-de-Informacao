@@ -1,2 +1,2 @@
-# UFG
+# UFG - Sistemas de Informação
 Atividades
