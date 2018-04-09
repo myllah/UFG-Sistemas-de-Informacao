@@ -15,7 +15,7 @@ main(){
 	}
 }
 /*
-Divisível por 3 e 5 (+)
+3- Divisível por 3 e 5 (+)
 Desenvolver um programa que leia um número inteiro e verifique se o número é divisível por três e
 também é divisível por cinco.
 	Entrada

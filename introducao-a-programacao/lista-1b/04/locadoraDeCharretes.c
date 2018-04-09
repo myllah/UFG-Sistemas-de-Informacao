@@ -23,7 +23,6 @@ main(){
 
 		printf("O VALOR A PAGAR E = %.2f\n", truncf(valor*100)/100);
 	}
-
 }
 
 /*4 Locadora de charretes (+)

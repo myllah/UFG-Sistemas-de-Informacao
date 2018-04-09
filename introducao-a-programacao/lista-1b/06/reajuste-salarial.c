@@ -14,7 +14,6 @@ main()
 	{
 		reajuste = (salario*30)/100;
 	}
-
 	printf("SALARIO COM REAJUSTE = %.2f\n", truncf((salario + reajuste)*100)/100);
 }
 /*

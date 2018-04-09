@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+main(){
 	float n1, n2, n3;
 	float media = 0;
 

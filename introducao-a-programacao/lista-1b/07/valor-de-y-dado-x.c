@@ -5,19 +5,15 @@ main(){
 	int x, y;
 	scanf("%d", &x);
 
-	if (x < 1)
-	{
+	if (x < 1) {
 		y = x;
-	} else if (x == 1)
-	{
+	} else if (x == 1) {
 		y = 0;
-	} else if (x > 1)
-	{
+	} else if (x > 1) {
 		y = pow(x,2);
 	}
 
 	printf("Y = %d\n", y);
-
 }
 /*
 7 - Valor de y dado x (+)

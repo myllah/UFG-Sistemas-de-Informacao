@@ -27,9 +27,9 @@ main()
 		printf("NOTA INVALIDA\n");
 		return 0;
 	}
-
 	printf("NOTA = %.1f CONCEITO = %c\n",  truncf(nota*10)/10 ,conceito);
 }
+
 /*
 5 - Conversão de Nota em Conceito (+)
 Em um curso de mestrado as avaliações dos alunos no histórico escolar aparecem em forma de conceito.

@@ -14,7 +14,6 @@ main(){
 
 	scanf("%d %f %c", &conta, &consumo, &tipoConsumidor);
 
-
 	printf("CONTA = %d\n", conta);
 
 	if (tipoConsumidor == 'r' || tipoConsumidor == 'R')
@@ -51,11 +50,7 @@ main(){
 }
 
 /*
-Saída
-CONTA = 39393939
-VALOR DA CONTA = 537.50
-
-2 Conta de Água (+)
+2- Conta de Água (+)
 Desenvolver um programa para calcular a conta de água para uma empresa de saneamento. O custo da
 água varia dependendo se o consumidor é residencial, comercial ou industrial. A regra para
 calcular a conta é:
