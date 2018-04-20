@@ -19,9 +19,9 @@ main() {
     }
 
     if(cont>2 || x==1){
-        printf("NAO PRIMO\n");
+        printf("NAO PRIMO \n");
     }else{
-        printf("PRIMO\n");
+        printf("PRIMO \n");
     }
 }
 

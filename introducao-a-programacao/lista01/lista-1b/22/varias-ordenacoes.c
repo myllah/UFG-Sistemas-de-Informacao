@@ -1,5 +1,7 @@
 //22 - Várias Ordenações
+
 #include <stdio.h>
+
 main(){
 
    float i = 0, a = 0, b = 0, c = 0;

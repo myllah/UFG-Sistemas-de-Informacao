@@ -9,7 +9,6 @@ main(){
 	if (((b-c) < a && a < (b + c)) && ((a-c) < c < (a+c)) && ((a-b) < c < (a+b)))
 	{
 
-
 		perimetro = a + b + c;
 		printf("Perimetro = %.1f\n", truncf(perimetro*100)/100);
 	}
@@ -57,9 +56,9 @@ e depois divida por 10.0. Se for com três casas decimais, multiplique e depois 
 assim por diante.
 A área de um trapézio é computada como
 
-				Área = (A + B)∗C
-					  -----------
-					  		2
+						Área = (A + B)∗C
+							  -----------
+							  		2
 
 Para imprimir um valor float com apenas uma casa decimal você deve usar a função printf com o código
 de formato "%.1f".

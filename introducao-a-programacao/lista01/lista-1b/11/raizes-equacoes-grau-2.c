@@ -1,6 +1,8 @@
 //11 - Raízes de equações de grau 2
+
 #include <stdio.h>
 #include <math.h>
+
 main(){
 
 	float a, b, c, x1, x2, delta;
