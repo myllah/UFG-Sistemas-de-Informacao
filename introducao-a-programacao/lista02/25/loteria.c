@@ -1,3 +1,4 @@
+//25 - Loteria
 #include <stdio.h>
 int main(){
 
@@ -6,15 +7,16 @@ int main(){
     scanf("%d", &sorteadas[i]);
   }
 
-  int j = 0, n;
+  int n;
   scanf("%d", &n);
 
   while (n < 0 || n > 50001) {
     scanf("%d", &n);
   }
 
-  int apostas[6];
-int k, cont = 0, sena = 0, quina = 0, quadra = 0;
+  int j = 0, k = 0, apostas[6];
+  int cont = 0, sena = 0, quina = 0, quadra = 0;
+
   do{
 
     for (i = 0; i < 6; i++) {
@@ -31,9 +33,7 @@ int k, cont = 0, sena = 0, quina = 0, quadra = 0;
 
     for (i = 0; i < 6; i++) {
       for (k = 0; k < 6; k++) {
-        //printf("%d - %d == %d\n",j, sorteadas[i], apostas[k] );
         if (sorteadas[i] == apostas[k]) {
-          //printf("cont = %d\n", cont);
           cont++;
         }
       }
@@ -47,32 +47,31 @@ int k, cont = 0, sena = 0, quina = 0, quadra = 0;
     }
     cont = 0;
   j++;
-}while(j < n);
+  }while(j < n);
 
-  if (sena != 0) {
-    printf("Houve %d acertador(es) da sena\n", sena);
-  } else{
-    printf("Nao houve acertador para sena\n");
-  }
+    if (sena != 0) {
+      printf("Houve %d acertador(es) da sena\n", sena);
+    } else{
+      printf("Nao houve acertador para sena\n");
+    }
 
-  if (quina != 0) {
-    printf("Houve %d acertador(es) da quina\n", quina);
-  } else{
-    printf("Nao houve acertador para quina\n");
-  }
+    if (quina != 0) {
+      printf("Houve %d acertador(es) da quina\n", quina);
+    } else{
+      printf("Nao houve acertador para quina\n");
+    }
 
-  if (quadra != 0) {
-    printf("Houve %d acertador(es) da quadra\n", quadra);
-  } else{
-    printf("Nao houve acertador para quadra\n");
+    if (quadra != 0) {
+      printf("Houve %d acertador(es) da quadra\n", quadra);
+    } else{
+      printf("Nao houve acertador para quadra\n");
   }
 return 0;
 }
 
 /*
-25
-Loteria (++++)
-(++++)
+25 - Loteria (++++)
+
 A Mega-Sena é a maior loteria do Brasil. Para ganhar o prêmio máximo é necessário acertar a sena,
 o que significa obter coincidência entre seis dos números apostados e os seis números sorteados, de um
 total de sessenta dezenas (de 01 a 60), independentemente da ordem da aposta ou da ordem do sorteio.

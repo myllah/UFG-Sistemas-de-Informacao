@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <math.h>
-main(){
+int main(){
 
   int t, j, i, temp, ii=0;
-  double mediana, td;
+  double mediana;
   scanf("%d", &t);
 
   if (t <=0 || t > 10000000) {
@@ -25,7 +25,7 @@ main(){
        }
       }
     }
-    td = t;
+
   int media = t/2;
 
   if (t%2 != 0 ) {
@@ -34,6 +34,7 @@ main(){
     mediana = (v[media +1] + v[media])/2;
   }
   printf("%.2lf\n", mediana);
+  return 0;
 }
 /*
 14 - Mediana (++)
