@@ -1,6 +1,6 @@
 #include <stdio.h>
 #define TM 2
-main(){
+int main(){
 
     int l, c, a[TM][TM], b[TM][TM], s[TM][TM];
 
@@ -16,11 +16,11 @@ main(){
         }
     }
 
-    int soma = 0; int coluna = 0;
+    int soma = 0; int coluna;
     for(l = 0; l < TM; l++){
         for(c = 0; c < TM; c++){
             for(coluna = 0; coluna < TM; coluna++){
-                soma = soma + a[l][c] * b[c][l];
+                soma = soma + a[l][coluna] * b[coluna][c];
              }
         s[l][c] = soma;
         soma = 0;
@@ -28,11 +28,12 @@ main(){
     }
 
     for(l = 0; l < TM; l++){
-        puts("");
         for(c = 0; c < TM; c++){
             printf("%d ", s[l][c]);
         }
+        puts("");
     }
+    return 0;
 }
 
 /*
