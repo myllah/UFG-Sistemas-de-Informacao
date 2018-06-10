@@ -10,7 +10,7 @@ int main(){
   scanf("%d", &valorBorda);
 
   puts("P2");
-  printf("%d %d\n", largura, altura);
+  printf("%d %d\n", altura, largura);
   puts("255");
 
   int i, j;
