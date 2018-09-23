@@ -10,16 +10,16 @@ public class Main {
 		
 		System.out.print(quadrado.desenhar());
 		System.out.println(" - Perímetro: " + quadrado.calculaPerimetro()
-							+ " Área:" + quadrado.calculaArea() + "\n");
+							+ " Área: " + quadrado.calculaArea() + "\n");
 		System.out.print(triangulo.desenhar());
 		System.out.println(" - Perímetro: " + triangulo.calculaPerimetro()
-							+ " Área:" + triangulo.calculaArea()+ "\n");
+							+ " Área: " + triangulo.calculaArea()+ "\n");
 		System.out.print(circulo.desenhar());
 		System.out.println(" - Perímetro: " + circulo.calculaPerimetro()
-							+ " Área:" + circulo.calculaArea()+ "\n");
+							+ " Área: " + circulo.calculaArea()+ "\n");
 		System.out.print(retangulo.desenhar());
 		System.out.println(" - Perímetro: " + retangulo.calculaPerimetro()
-							+ " Área:" + retangulo.calculaArea()+ "\n");
+							+ " Área: " + retangulo.calculaArea()+ "\n");
 		
 		
 		ArrayList<Figura> figura = new ArrayList<Figura>();
@@ -31,7 +31,7 @@ public class Main {
 		System.out.println("---------------------\n");
 		for(int i = 0; i < figura.size(); i++) {
 			System.out.println(figura.get(i).desenhar() + " - Perímetro: " + figura.get(i).calculaPerimetro()
-			+ " Área:" + figura.get(i).calculaArea() + "\n");
+			+ " Área: " + figura.get(i).calculaArea() + "\n");
 		}
 
 	}
