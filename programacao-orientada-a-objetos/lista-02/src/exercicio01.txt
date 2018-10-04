@@ -1,0 +1,35 @@
+Exercício 1:
+
+O que é uma classe ?
+R = É um conceito que encapsula abstrações de dados e procedimentos que descrevem o conteúdo e o comportamento de entidades do mundo real, representadas por objetos
+	
+O que é um objeto ?
+R = Um objeto refere-se a uma instância de uma classe.
+	
+O que é um atributo?
+R = Os Atributos são os elementos que definem a estrutura de uma classe. 
+	
+O que é um método?
+R = Métodos são blocos de código que pertencem a uma classe e tem por finalidade realizar uma tarefa. Um método em Java é equivalente a uma função.
+	
+O que é a assinatura de um método?
+R = O nome do método acrescido de seus parâmetros é denominado assinatura do
+método. A assinatura é o jeito de identificar um método de forma única. Além de analisar o nome do método, o compilador também analisa os parâmetros.
+	
+O que é a palavra void na definição de um método e por que alguns métodos não tem esta na sua definição?
+R = Void significa que o seu MÉTODO não retornará nada. O construtor, por exemplo não há retorno, e não é necessário o void.
+
+O que é um construtor e quando ele é invocado?
+R = O  construtor determina que ações devem ser executadas quando da criação de um objeto. Em Java, o construtor é definido como um método cujo nome deve ser o mesmo nome da classe e sem indicação do tipo de retorno. O construtor é unicamente invocado no momento da criação do objeto através do operador new.
+
+Para que serve o método main?
+R = Esse é o método que fará o programa “rodar”
+
+O que significa a sobrecarga de métodos?
+R = Podemos criar vários métodos com o mesmo nome desde que tenham parâmetros diferentes. Isso é o que chamamos de sobrecarga de métodos. Consiste em criarmos o mesmo método com possibilidades de entradas diferentes
+
+O que é o escopo de uma variável?
+R =  Existem quatro escopos de variáveis: variáveis estáticas (que são criadas quando a classe é carregada, sobrevivendo enquanto a classe continuar carregada na JVM), variáveis de instância (que são criadas quando uma nova instância é criada, e duram até essa instância ser removida), variáveis locais (que permanecem enquanto o método que as contém estiver sendo executado) e variáveis de bloco (que permanecem enquanto o bloco estiver sendo executado).
+
+Para que servem os modificadores de acesso? 
+R = Modificadores de acesso são as palavras-chave usadas para especificar a acessibilidade da declaração de um membro ou um tipo. São modificadores de acesso: Public, Private, Protected, Internal, Protected Internal
