@@ -39,3 +39,6 @@ int main(){
 /*
 06 - Escrever um algoritmo que calcule a multiplicação de duas matrizes inteiras 10X10.
 */
+/*
+06 - Escrever um algoritmo que calcule a multiplicação de duas matrizes inteiras 10X10.
+*/

@@ -116,3 +116,18 @@ main(){
 		printf("ERRO\n");
  	}
 }
+
+/*
+01) Faça um programa que calcule e mostre a área de um trapézio ((base maior + base menor) *
+altura)/2
+02) José distribui sua renda mensal da seguinte forma: 10% saúde, 25% educação, 30%
+alimentação, 10% vestuário; 5% lazer, 20% outros. Faça um algoritmo que leia a renda mensal
+liquida de José, calcule e escreva o valor aplicado em cada item acima citado.
+03) Construa um algoritmo que calcule a quantidade de latas de tinta necessária e o custo para
+pintar tanques cilíndricos de combustível, em que são fornecidos a altura e o raio desse cilindro.
+Sabe-se que: a) A lata de tinta custa 50 reais; b) A lata contém 5 litros; c) Cada litro pinta 3 metros
+quadrados).
+04) Faça um programa para, dados dois números, decidir qual deles é o maior.
+05) Faça um programa para ler um número inteiro e determinar se ele é par ou ímpar.
+06) Faça um programa para ler dois números inteiros M e N e determinar se M é divisível por N.
+*/
