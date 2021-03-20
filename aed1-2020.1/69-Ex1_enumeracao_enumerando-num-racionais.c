@@ -16,19 +16,18 @@ double mdc(double num1, double num2) {
 }
 
 void enumerandoRacionais(double posicao){
-	
 	double d = 1;
 	double n;
 	double cont = 0;
 
-    while(1){
+while(1){
         for(n = 0; n <= d; n++){
             if(mdc(n, d) == 1){
                 cont++;
                 if(posicao == cont){
-					printf("%.0lf/%.0lf\n", n, d);
-					break;
-				}
+			printf("%.0lf/%.0lf\n", n, d);
+			break;
+		}
             }
         }
         if ((mdc(n, d) == 1) && (posicao == cont)){
