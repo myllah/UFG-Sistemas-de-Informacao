@@ -78,7 +78,28 @@ main(){
     scanf("%f", &horasTrabalhadas);
 
     float remuneracaoHora = salario/20;
+
     float remuneracaoTotal = remuneracaoHora*horasTrabalhadas;
     printf("\nA remuneração total e %f\n\n", remuneracaoTotal);
 
 }
+
+
+/*
+1) Ler um número inteiro e apresentar seu predecessor e seu sucessor;
+2) Faça um programa que calcule a área de um quadrado.
+3) Faça um algoritmo que receba o ano atual e o ano de seu nascimento. Calcule e mostre a idade
+dessa pessoa e quantos anos ela terá em 2050
+4) Faça um programa que receba o valor do salário mínimo e o valor do salário de um funcionário,
+calcule e mostre a quantidade de salários mínimos que esse funcionário ganha.
+5) Uma pessoa construindo sua residência resolveu colocar em sua casa uma caixa para servir como
+reservatório de água. Considerando que a caixa seja retangular, faça um algoritmo que leia as
+dimensões da caixa (comprimento, altura e largura), calcule e escreva o volume de água que pode
+ser armazenado.
+6) Elabore um algoritmo que seja capaz de receber como entrada o valor do salário mínimo vigente
+e o número de horas trabalhadas por um operário para, em seguida, calcular e apresentar o valor da
+remuneração a ser recebida por ele. Sabe-se que:
+a) a hora trabalhada equivale à vigésima parte do salário mínimo;
+b) a remuneração total corresponde ao produto entre o valor da hora trabalhada e o
+número de horas trabalhadas
+*/
