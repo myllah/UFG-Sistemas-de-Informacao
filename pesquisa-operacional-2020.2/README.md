@@ -1,5 +1,6 @@
 
 **Unindo a necessidade de entender os conceitos de Pesquisa Operacional e de aprender Python**
+
 O código principal se encontra no notebook algoritmo-forca-bruta.ipynb, os outros notebooks são exercícios
 
 
